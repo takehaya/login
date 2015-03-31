@@ -1,0 +1,8 @@
+3/17
+ある程度かいた。とりあえずaccountとloginはかいた。とりま確認もした。
+->//“application/json”で指定しないとJSONをJSONで囲ってしまう。
+/*
+loginRequest.addValue("application/json", forHTTPHeaderField: "Accept")
+        loginRequest.addValue("application/json", forHTTPHeaderField: "Content-Type")
+*/
+まだAcceptとContent-Typeはなんのためにうごいてるかわからぬ
